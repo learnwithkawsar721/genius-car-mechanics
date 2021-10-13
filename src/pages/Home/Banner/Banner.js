@@ -2,7 +2,6 @@ import React from "react";
 import { Carousel } from "react-bootstrap";
 import "./Banner.css";
 const Banner = () => {
-  document.title = "Banner";
   return (
     <>
   
