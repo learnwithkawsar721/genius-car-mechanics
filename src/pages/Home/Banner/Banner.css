@@ -1,0 +1,15 @@
+
+.overlay::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.342);
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+
+.carousel-caption{
+    z-index: 99;
+}
